@@ -11,21 +11,18 @@
 		}, options);
 		
 		var i = 0;
-			slider = $(this).find('ul'); 		 				// slider-list
-			elms = slider.children().length - 1; 				// length
-			counter = $(this).find('#counter');					// counter
+			slider = $(this).find('ul'); // slider-list
+			elms = slider.children().length - 1; // length
+			counter = $(this).find('#counter');	// counter
 			
 		function eslide() {
 		
 			slider.find('li:first-child').addClass("current");	// current		
-			
-			// counter.text( (i+1) + '/' + (elms+1) );
-			
+						
 			$(this).addClass("eslider");
 			$(this).find('ul').first().addClass("slider");
 			
 			var caption_block = "<div class='caption-block'><h1>"+ options.title + "</h1><div class='pages'><a href='/' id='left_pg'></a><div id='counter'>"+ (i+1)+'/'+(elms+1)+"</div><a href='/' id='right_pg'></a></div></div>";
-			
 			
 			
 			$('ul.slider').before(caption_block);
