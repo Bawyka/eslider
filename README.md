@@ -1,4 +1,0 @@
-eslider
-=======
-
-jQuery eSlider Plugin
