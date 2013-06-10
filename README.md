@@ -32,9 +32,9 @@
 
 ```js
     $('#eslider').eslider({ 		
-	title: "ОТЗЫВЫ КЛИЕНТОВ",
-	speed: "slow",
-	cycle: true
+	    title: "ОТЗЫВЫ КЛИЕНТОВ",
+	    speed: "slow",
+	    cycle: true
     });
 ```
 
