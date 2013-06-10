@@ -24,26 +24,20 @@
 Для того чтобы слайдер заработал нужно его применить к этому div
 
 - Это делается вот так
-```html
-<script type="text/javascript">
-$(function(){
+```js
+$('#eslider').eslider({ 
 		
-	$('#eslider').eslider({ 
-			
-		title: "ОТЗЫВЫ КЛИЕНТОВ",
-		speed: "slow",
-		cycle: true
-			
-	});
-	
+	title: "ОТЗЫВЫ КЛИЕНТОВ",
+	speed: "slow",
+	cycle: true
+		
 });
-</script>
 ```
 
 Возможно запустить слайдер и без опций ( а точнее это будут опции по умолчанию )
 
 ```js
--> $('#eslider').eslider();
+$('#eslider').eslider();
 ```
 
 
