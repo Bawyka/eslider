@@ -1,0 +1,99 @@
+/* Style jquery.eslider-1.0.css
+Author: Bawyka T.P.
+Date: 27/09/2012 */
+ 
+.eslider {
+    float: left;
+    width: 355px !important;
+}
+
+.eslider .caption-block {
+    border-bottom: 4px solid #EDF0F3;
+    margin: 0 0 9px;
+    padding: 0;
+    position: relative;
+}
+
+.eslider .caption-block h1 {
+
+    color: #000000 !important;
+    font-family: 'MagistralC','Arial' !important;
+    font-size: 16px !important;
+    font-weight: bold;
+    margin: 0 0 0 5px;
+    padding: 0;
+	display: block;
+    margin: 0 0 5px !important;
+    width: 310px;
+
+}
+
+.eslider ul.slider {
+
+    height: 340px;
+    list-style: none outside none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 500px;
+	
+}
+
+.eslider ul.slider li {
+
+	display: none;
+	left: 0;
+    position: absolute;
+    top: 0;
+	
+}
+
+.eslider ul.slider li:first-child { display: block; }
+
+.eslider .pages { 
+
+	padding: 2px 5px 0 18px;
+	height: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 43px;
+
+}
+
+.eslider .pages span {
+
+	font-size:15px;
+	font-family: 'MagistralC', 'Arial';
+	color:#363636;
+	
+}
+ 
+.eslider a#left_pg {
+    background: url("img/left_pages.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 10px;
+}
+
+.eslider a#right_pg {
+    background: url("img/right_pages.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 14px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 10px;
+}
+
+.eslider #counter {
+    color: #363636;
+    font-family: 'MagistralC','Arial';
+    font-size: 15px;
+    text-align: left;
+    width: 70px;
+}
